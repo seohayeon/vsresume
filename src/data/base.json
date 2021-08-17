@@ -1,0 +1,56 @@
+{
+  "publicPath": "/",
+  "app": {
+    "name": "devops",
+    "startUrl": "/"
+  },
+  "title": "Hayeon SEO",
+  "ga": "UA-000000000-0",
+  "profile": {
+    "name": "Hayeon SEO",
+    "email": "hyseo0208@gmail.com",
+    "githubName":"seohayeon",
+    "photo": "avatar.png",
+    "introduce": "Make it work, make it right, make it fast.",
+    "contact": [
+      {
+        "label": "email",
+        "url": "mailto:hyseo0208@gmail.com",
+        "value" : "hyseo0208@gmail.com"
+      },
+      {
+        "label": "github",
+        "url": "https://github.com/seohayeon",
+        "value" : "seohayeon"
+      },
+      {
+        "label": "blog",
+        "url": "https://seohayeon.me",
+        "value" : "https://seohayeon.me"
+      }
+    ],
+    "skill": [
+      {
+        "label": "TypeScript",
+        "icon": "icon/ts.png"
+      },
+      {
+        "label": "JavaScript",
+        "icon": "icon/js.png"
+      },
+      {
+        "label": "Python",
+        "icon": "icon/py.png"
+      },
+      {
+        "label": "React.js",
+        "icon": "icon/react.png"
+      },
+      {
+        "label": "Vue.js",
+        "icon": "logo.png"
+      }
+    ],
+    "hobby": ["프로그래밍","음악듣기"]
+  }
+}

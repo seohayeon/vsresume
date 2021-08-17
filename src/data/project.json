@@ -1,0 +1,79 @@
+{
+  "tags": {
+    "language": [
+      {
+        "id": "ts",
+        "icon" : "icon/ts.png",
+        "label": "TypeScript",
+        "extension":"ts"
+      },
+      {
+        "id": "py",
+        "icon" : "icon/py.png",
+        "label": "Python",
+        "extension":"py"
+      },
+      {
+        "id": "js",
+        "icon" : "icon/js.png",
+        "label": "Javascript",
+        "extension":"js"
+      },
+      {
+        "id": "react",
+        "icon" : "icon/react.png",
+        "label": "React",
+        "extension":"jsx"
+      }
+    ],
+    "web": [
+      {
+        "id": "vue",
+        "icon" : "",
+        "color": "vue",
+        "label": "Vue"
+      },
+      {
+        "id": "react",
+        "color": "react",
+        "icon" : "",
+        "label": "React"
+      },
+      {
+        "id": "angular",
+        "color": "angular",
+        "icon" : "",
+        "label": "Angular"
+      }
+    ]
+  },
+  "content": [
+    {
+      "name": "Sookmyeong Kakao I",
+      "date": "2021.01.14",
+      "image": "https://assets-global.website-files.com/5bfd6f4468ee7943c2d331dd/5f736b2a00249e2533ca4311_005.jpg",
+      "description": "숙명여자고등학교 카카오봇입니다.",
+      "tag": ["js"],
+      "github": "https://github.com/seohayeon/sookmyeong-kakao-i",
+      "deploy":null
+    },
+    {
+      "name": "Music Player",
+      "date": "2020.01.09",
+      "image": "https://assets.justinmind.com/wp-content/uploads/2020/08/mockup-templates-to-download-now.png",
+      "description": "리액트로 만든 뮤직플레이어 입니다.",
+      "tag": ["react"],
+       "github": "https://github.com/seohayeon/react-music-player",
+      "deploy":"https://nuesic.vercel.app" 
+    },
+    {
+      "name": "Music Player",
+      "date": "2020.01.09",
+      "image": "https://img.freepik.com/free-psd/full-screen-smartphone-laptop-mockup-design_136295-391.jpg?size=626&ext=jpg",
+      "description": "리액트로 만든 뮤직플레이어 입니다.",
+      "tag": ["react"],
+       "github": "https://github.com/seohayeon/react-music-player",
+      "deploy":"https://nuesic.vercel.app" 
+    }
+  ]
+}
