@@ -27,6 +27,21 @@
         "label": "blog",
         "url": "https://seohayeon.me",
         "value" : "https://seohayeon.me"
+      },
+      {
+        "label": "linkdin",
+        "url": "",
+        "value" : "seohayeon"
+      },
+      {
+        "label": "facebook",
+        "url": "",
+        "value" : "seohayeon"
+      },
+      {
+        "label": "instagram",
+        "url": "",
+        "value" : "@xeovii"
       }
     ],
     "skill": [

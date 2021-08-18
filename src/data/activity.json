@@ -1,0 +1,32 @@
+{
+  "tags": {
+    "type": [
+      {
+        "id": "career",
+        "label": "Career"
+      },
+      {
+        "id": "cert",
+        "label": "Certification"
+      }
+    ],
+    "other": [
+      {
+        "id": "ex",
+        "label": "Example"
+      }
+    ]
+  },
+  "content": [
+    {
+      "title": "First Company",
+      "from": "2019-01-01",
+      "tag": "career"
+    },
+    {
+      "title": "정보처리기사",
+      "from": "2000-12-31",
+      "tag": "cert"
+    }
+  ]
+}

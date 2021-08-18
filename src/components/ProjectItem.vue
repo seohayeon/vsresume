@@ -39,7 +39,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
     #project_list{
-        width:calc(50% - 2rem);
+        width:calc(33% - 2rem);
         background:black;
         float:left;
         margin-right:1rem;

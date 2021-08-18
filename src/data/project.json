@@ -2,18 +2,6 @@
   "tags": {
     "language": [
       {
-        "id": "ts",
-        "icon" : "icon/ts.png",
-        "label": "TypeScript",
-        "extension":"ts"
-      },
-      {
-        "id": "py",
-        "icon" : "icon/py.png",
-        "label": "Python",
-        "extension":"py"
-      },
-      {
         "id": "js",
         "icon" : "icon/js.png",
         "label": "Javascript",

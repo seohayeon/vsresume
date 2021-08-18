@@ -11,6 +11,7 @@
             </div>
     </div>
     <div id='view'>
+        
         <div v-if="Window==='project'">
         <div id="tab" style="white-space: nowrap;">
            <div v-for="(a,i) in tags.language" :key="i">
@@ -29,7 +30,8 @@
         </div>
             <ContactWindow v-if="Window==='contact'"/>
             <AboutWindow v-if="Window==='about'"/>
-        
+            <ActivityWindow v-if="Window==='activity'"/>
+            <MainWindow @setWindow="setWindow" v-if="Window==='main'"/>
     </div>
     <div id="footer"></div>
 </template>
@@ -40,12 +42,17 @@ import SideBar from '../components/SideBar'
 import ProjectItem from '../components/ProjectItem'
 import ContactWindow from '../components/menu/ContactWindow'
 import AboutWindow from '../components/menu/AboutWindow'
+import ActivityWindow from '../components/menu/ActivityWindow'
+import MainWindow from '../components/menu/MainWindow'
+
 export default {
     components: {
     SideBar,
     ProjectItem,
     ContactWindow,
-    AboutWindow
+    AboutWindow,
+    ActivityWindow,
+    MainWindow
     },
     name: "HomeComponent",
     data(){
@@ -54,7 +61,7 @@ export default {
             tags:projectData.tags,
             projectContent: projectData.content,
             thisTag:'all',
-            Window:'home',
+            Window:'main',
             contactData:baseData.profile.contact
         }
     },
